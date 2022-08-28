@@ -1,0 +1,1 @@
+type Readonly<Type> = { readonly [i in keyof Type]: Type[i] };
